@@ -1,0 +1,31 @@
+.detail-item {
+  max-width: 600px;
+  margin: 0 auto;
+  &__title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  &__img {
+    img {
+      display: flex;
+      margin: 0 auto;
+      max-width: 400px;
+      padding: 20px;
+    }
+  }
+
+  &__description {
+    max-width: 400px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__choose {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+}

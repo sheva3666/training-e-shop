@@ -1,0 +1,30 @@
+.container {
+  max-width: 1200px;
+  margin: 0 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &__btns {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.cart-list {
+  margin: 20px;
+
+  &__product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__product-image {
+    img {
+      max-width: 100px;
+    }
+  }
+}
